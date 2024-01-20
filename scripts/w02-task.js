@@ -18,7 +18,7 @@ const yearElement = document.querySelector("#year");
 /* Step 4 - Adding Content */
 
 nameElement.innerHTML = "<strong>${fullName}</strong>";
-yearElement.textContent = currentYear;
+const year = yearElement.textContent = currentYear;
 
 
 
